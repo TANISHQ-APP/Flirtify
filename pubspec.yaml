@@ -1,0 +1,25 @@
+name: flirtify
+description: A realistic AI girlfriend chat app with crush detector.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.0
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/splash_screen.png
